@@ -1,3 +1,4 @@
+// 1: Values and Variables
 let country = "Ireland";
 let continent = "Europe";
 let population = 4937786;
