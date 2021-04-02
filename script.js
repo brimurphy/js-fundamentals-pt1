@@ -87,7 +87,7 @@ console.log(job);
 lastName = "Murphy"
 console.log(lastName);
 */
-
+/*
 // Basic Operators
 // Arithmetic operators
 const now = 2037;
@@ -115,3 +115,22 @@ console.log(ageBrian > ageAoibhinn); // >, <, >=, <=
 console.log(ageAoibhinn >= 18);
 // Store results in variables
 const isLegalAge = ageAoibhinn >= 18;
+*/
+/*
+// Operator Precedence
+const now = 2037;
+const ageBrian = now - 1983;
+const ageAoibhinn = now - 2019;
+
+console.log(now - 1991 > now - 2018);
+
+console.log(25 - 10 - 5); // 10
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10
+// x = 25 - 10 - 5 = y; // returns SyntaxError
+console.log(x, y);
+// Adding parenthesis increases Precedence
+const averageAge = (ageBrian + ageAoibhinn) / 2;
+console.log(ageBrian, ageAoibhinn, averageAge);
+*/
