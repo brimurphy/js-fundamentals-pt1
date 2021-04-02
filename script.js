@@ -29,7 +29,8 @@ let job2 = "technician";
 
 console.log(myFirstJob);
 */
-
+/*
+// Data Types
 // Boolean
 
 let javaScriptIsFun = true;
@@ -56,3 +57,32 @@ console.log(typeof year);
 
 // Error in JS, this returns object
 console.log(typeof null);
+*/
+
+// Let, Const and Var
+
+// Use let when a variable can be redefined/mutate
+let age = 30;
+age = 31;
+
+// Use const when value is not to be changed
+const birthYear = 1991;
+// This will return an Uncaught TypeError in console.
+// birthYear = 1990;
+
+// This will return an Uncaught SyntaxError in console.
+// const job;
+
+// Try avoid using var but understand it for legacy reasons
+// Works similar to let
+var job = "programmer";
+console.log(job);
+job = "teacher";
+console.log(job);
+
+// Declaring a variable without a keyword
+// This will work technically
+// But will not create the variable in the scope
+// And will be created on the global object
+lastName = "Murphy"
+console.log(lastName);
