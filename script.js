@@ -58,7 +58,7 @@ console.log(typeof year);
 // Error in JS, this returns object
 console.log(typeof null);
 */
-
+/*
 // Let, Const and Var
 
 // Use let when a variable can be redefined/mutate
@@ -86,3 +86,32 @@ console.log(job);
 // And will be created on the global object
 lastName = "Murphy"
 console.log(lastName);
+*/
+
+// Basic Operators
+// Arithmetic operators
+const now = 2037;
+const ageBrian = now - 1983;
+const ageAoibhinn = now - 2019;
+console.log(ageBrian, ageAoibhinn);
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+console.log(ageBrian * 2, ageBrian / 10, 2 ** 3);
+
+const firstName = "Brian";
+const lastName = "Murphy";
+console.log(firstName + " " + lastName);
+
+// Assignment Operators
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
+x--; // x = x - 1 = 99
+console.log(x);
+
+// Comparison operators
+console.log(ageBrian > ageAoibhinn); // >, <, >=, <=
+console.log(ageAoibhinn >= 18);
+// Store results in variables
+const isLegalAge = ageAoibhinn >= 18;
