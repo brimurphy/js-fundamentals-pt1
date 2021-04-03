@@ -134,3 +134,31 @@ console.log(x, y);
 const averageAge = (ageBrian + ageAoibhinn) / 2;
 console.log(ageBrian, ageAoibhinn, averageAge);
 */
+/*
+// Strings and Template literals
+
+const firstName = "Brian";
+const job = "technician";
+const birthYear = 1983;
+const year = 2037;
+
+const brian = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(brian);
+// Template literals
+const brianNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(brianNew);
+// Can be used to write normal strings without variable values
+console.log(`Just a boring string`);
+// Old way of making a multiline string
+console.log("String with \n\
+multiple \n\
+lines");
+// Using back ticks
+console.log(`Back ticks
+can create
+multiple lines
+now`);
+*/
+
+// If/Else Statements
+
