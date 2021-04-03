@@ -159,7 +159,7 @@ can create
 multiple lines
 now`);
 */
-
+/*
 // If/Else Statements
 
 const age = 16;
@@ -179,3 +179,4 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/

@@ -37,7 +37,7 @@ const descriptionNew = `${country} is in ${continent}, and its ${population} peo
 
 // 6: If/Else Statements
 if (population > avgPopulation) {
-    console.log(`${country}'s population is above average.`)
+    // console.log(`${country}'s population is above average.`)
 } else {
-    console.log(`${country}'s population is below average.`)
+    // console.log(`${country}'s population is below average.`)
 }
