@@ -180,7 +180,7 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
-
+/*
 // Type Conversion and Coercion
 const inputYear = "1991";
 console.log(inputYear + 18); // returns 199118
@@ -202,3 +202,29 @@ console.log("23" > "13"); // Again will turn the strings to numbers
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
+*/
+
+// Truthy and Falsy Values
+// 5 Falsy values are: 0, "", undefined, Null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Brian"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+    console.log(`Don't spend it all`);
+} else {
+    console.log(`You need a better job!!`)
+}
+
+let height;
+if (height) {
+    console.log(`YAY! Height is defined`);
+} else {
+    console.log(`Height is UNDEFINED!`);
+}
+
+// Equality Operators: == vs ===

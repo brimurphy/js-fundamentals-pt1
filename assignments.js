@@ -50,3 +50,5 @@ if (population > avgPopulation) {
 '19' - '13' + 17; // 23
 '123' < 57; // false
 5 + 6 + '4' + 9 - 4 - 2; // 1143
+
+//  7: Equality Operators: == vs ===
