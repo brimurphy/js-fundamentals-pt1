@@ -180,3 +180,25 @@ if (birthYear <= 2000) {
 }
 console.log(century);
 */
+
+// Type Conversion and Coercion
+const inputYear = "1991";
+console.log(inputYear + 18); // returns 199118
+console.log(Number(inputYear) + 18); // returns 2009, doesn't change original variable
+
+console.log(Number("Brian")); // returns NaN
+console.log(typeof NaN); // returns number, but it means it's an invalid number
+
+console.log(String(23), 23); // First will be a string, 2nd a number
+
+// Type Coercion
+console.log("I am " + 38 + " years old")
+console.log("I am 38 years old") // These will both work
+console.log("23" - "10" - 3);
+// Using - will turn strings to numbers, Using + will turn numbers to strings(When using both in a statement)
+console.log("23" * "2"); // Both turned to numbers as would divide
+console.log("23" > "13"); // Again will turn the strings to numbers
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);

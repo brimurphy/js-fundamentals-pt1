@@ -41,3 +41,12 @@ if (population > avgPopulation) {
 } else {
     // console.log(`${country}'s population is below average.`)
 }
+
+// 6: Type Conversion and Coercion
+// Predict the result of these 5 operations without executing them:
+// Then log them to check if you are right.
+'9' - '5'; // 4
+'19' - '13' + '17'; // 617
+'19' - '13' + 17; // 23
+'123' < 57; // false
+5 + 6 + '4' + 9 - 4 - 2; // 1143
