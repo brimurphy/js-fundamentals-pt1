@@ -30,5 +30,14 @@ const isLessThanAvgPopulation = population < avgPopulation;
 // console.log(isLessThanAvgPopulation);
 const description = country + " is in " + continent + ", and its " + population + " people speak " + language;
 // console.log(description);
+
+// 5: Strings and Template Literals
 const descriptionNew = `${country} is in ${continent}, and its ${population} people mostly speak ${language}`;
-console.log(descriptionNew);
+// console.log(descriptionNew);
+
+// 6: If/Else Statements
+if (population > avgPopulation) {
+    console.log(`${country}'s population is above average.`)
+} else {
+    console.log(`${country}'s population is below average.`)
+}

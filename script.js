@@ -162,3 +162,20 @@ now`);
 
 // If/Else Statements
 
+const age = 16;
+
+if (age >= 18) {
+    // windows button and . for emojis
+    console.log(`You can drive 👍`);
+} else {
+    console.log(`You can learn to drive ${18 - age} in years!😒`);
+}
+
+const birthYear = 1983;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
