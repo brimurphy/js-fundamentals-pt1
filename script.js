@@ -227,7 +227,7 @@ if (height) {
     console.log(`Height is UNDEFINED!`);
 }
 */
-
+/*
 // Equality Operators: == vs ===
 
 const age = "18";
@@ -253,3 +253,26 @@ if (favourite === 23) { // Try to always use ===
 
 // !== Strict != Loose
 if (favourite !== 23) console.log("Why not 23!?")
+*/
+
+// Boolean Logic
+
+const age = 16;
+const a = age >= 20;
+const b = age < 30;
+
+if (!a) {
+    console.log(`${age} is not greater or equal to 20!`);
+}
+if (a && b) {
+    console.log(`${age} is greater than or equal to 20 and less than 30`);
+}
+if (a || b) {
+    console.log(`${age} is greater than or equal to 20 or less than 30`);
+}
+if (!a && b) {
+    console.log(`${age} is not greater than or equal to 20 but is less than 30`);
+}
+if (a || !b) {
+    console.log(`${age} is greater than or equal to 20 and more than 30`);
+}

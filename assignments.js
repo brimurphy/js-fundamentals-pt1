@@ -52,3 +52,13 @@ if (population > avgPopulation) {
 5 + 6 + '4' + 9 - 4 - 2; // 1143
 
 //  7: Equality Operators: == vs ===
+
+const numNeighbours = Number(prompt("How many neighbouring countries does your country have?"));
+
+if (numNeighbours === 1) {
+    console.log("Only 1 border!");
+} else if (numNeighbours > 1) {
+    console.log("More than 1 border");
+} else {
+    console.log("No borders!");
+}
