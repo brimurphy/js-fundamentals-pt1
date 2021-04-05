@@ -203,7 +203,7 @@ let n = "1" + 1;
 n = n - 1;
 console.log(n);
 */
-
+/*
 // Truthy and Falsy Values
 // 5 Falsy values are: 0, "", undefined, Null, NaN
 
@@ -226,5 +226,30 @@ if (height) {
 } else {
     console.log(`Height is UNDEFINED!`);
 }
+*/
 
 // Equality Operators: == vs ===
+
+const age = "18";
+if (age === 18) console.log("You are an adult!! 🤷‍♀️"); // Strict
+
+if (age == 18) console.log("You are an adult!! 🙌");  // Loose
+
+const favourite = Number(prompt("What is your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite == 23) { // "23" == 23 = true
+    console.log("23!! What a number");
+}
+// "23" == 23 = false (change to type number for true)
+if (favourite === 23) { // Try to always use ===
+    console.log("23!! What a number");
+} else if (favourite === 7) {
+    console.log("7 is a lucky number!!");
+} else {
+    console.log("Number is not 23 or 7!! WHY!!😢");
+}
+
+// !== Strict != Loose
+if (favourite !== 23) console.log("Why not 23!?")
