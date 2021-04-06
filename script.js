@@ -342,7 +342,7 @@ if (day === "monday") {
     console.log(`Not a valid day!`);
 }
 */
-
+/*
 // The Conditional(Ternary) Operator
 // Sort of a short hand expression for if/else
 //  statement, but not exactly, used for quick
@@ -362,3 +362,4 @@ if (age >= 18) {
 console.log(drink2);
 
 console.log(`I like to drink ${age >= 18 ? `wine 🍷` : `water 💧`}`);
+*/

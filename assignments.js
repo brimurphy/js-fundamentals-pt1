@@ -100,4 +100,4 @@ switch (language) {
 
 const avgPop = population > 33000000 ? `${country}'s population is above average` : `${country}'s population is below average`;
 
-console.log(avgPop);
+// console.log(avgPop);

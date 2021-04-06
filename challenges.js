@@ -58,3 +58,16 @@ if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
 } else {
     // console.log(`Nobody wins the championship!`)
 }
+
+//  JS Challenge 4
+
+// Test Data 1
+const bill = 275;
+// Test Data 2
+// const bill = 40;
+// Test Data 3
+// const bill = 430;
+
+const tip = bill >= 50 && bill <= 300 ? bill * 15 / 100 : bill * 20 / 100;
+
+console.log(`The bill was $${bill}, the tip was $${tip} so the grand total was $${bill + tip}`);
