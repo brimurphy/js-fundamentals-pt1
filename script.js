@@ -277,7 +277,7 @@ if (a || !b) {
     console.log(`${age} is greater than or equal to 20 and more than 30`);
 }
 */
-
+/*
 // Logical Operators
 
 const hasDriversLicence = true;
@@ -296,5 +296,5 @@ if (shouldDrive) {
 } else {
     console.log("Someone else should drive..");
 }
-
+*/
 

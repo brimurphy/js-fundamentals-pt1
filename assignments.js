@@ -68,7 +68,7 @@ if (population > avgPopulation) {
 const idealCountry = language === "English" && population < 50000000 && !isIsIsland;
 
 if (idealCountry) {
-    console.log(`Sarah should live in ${country}!`);
+    // console.log(`Sarah should live in ${country}!`);
 } else {
-    console.log(`Sarah shouldn't live in ${country}!`);
+    // console.log(`Sarah shouldn't live in ${country}!`);
 }
