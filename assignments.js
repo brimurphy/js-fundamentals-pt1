@@ -78,20 +78,26 @@ if (idealCountry) {
 switch (language) {
     case "chinese":
     case "mandarin":
-        console.log(`MOST number of native speakers!`);
+        // console.log(`MOST number of native speakers!`);
         break;
     case "spanish":
-        console.log(`2nd place in number of native speakers`);
+        // console.log(`2nd place in number of native speakers`);
         break;
     case "english":
-        console.log(`3rd place`);
+        // console.log(`3rd place`);
         break;
     case "hindi":
-        console.log(`4th place`);
+        // console.log(`4th place`);
         break;
     case "arabic":
-        console.log(`5th most spoken language`);
+        // console.log(`5th most spoken language`);
         break;
     default:
-        console.log(`Great language too 😁`);
+    // console.log(`Great language too 😁`);
 }
+
+// 10: The Conditional(Ternary) Operator
+
+const avgPop = population > 33000000 ? `${country}'s population is above average` : `${country}'s population is below average`;
+
+console.log(avgPop);

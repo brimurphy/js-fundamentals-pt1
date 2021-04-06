@@ -297,7 +297,7 @@ if (shouldDrive) {
     console.log("Someone else should drive..");
 }
 */
-
+/*
 // The Switch Statement
 
 const day = "monday";
@@ -341,4 +341,24 @@ if (day === "monday") {
 } else {
     console.log(`Not a valid day!`);
 }
+*/
 
+// The Conditional(Ternary) Operator
+// Sort of a short hand expression for if/else
+//  statement, but not exactly, used for quick
+//  expressions
+const age = 23;
+age >= 18 ? console.log(`I like to drink wine 🍷`) : console.log(`I like to drink water 💧`);
+
+const drink = age >= 18 ? `wine 🍷` : `water 💧`;
+console.log(drink);
+// Above is the same as below
+let drink2;
+if (age >= 18) {
+    drink2 = `wine 🍷`;
+} else {
+    drink2 = `water 💧`;
+}
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? `wine 🍷` : `water 💧`}`);
