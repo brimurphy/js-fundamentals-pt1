@@ -37,21 +37,22 @@ if (bmiMark > bmiJohn) {
 // JS Challenge 3
 
 // Test data 1
-// const dolphinsAverageScore = (97 + 108 + 89) / 3;
+// const dolphinsAverageScore = (96 + 108 + 89) / 3;
 // const koalasAverageScore = (88 + 91 + 110) / 3;
 // Test data 2
 // const dolphinsAverageScore = (97 + 112 + 101) / 3;
 // const koalasAverageScore = (109 + 95 + 123) / 3;
 // Test data 3
-const dolphinsAverageScore = (97 + 108 + 89) / 3;
+const dolphinsAverageScore = (97 + 112 + 101) / 3;
 const koalasAverageScore = (109 + 95 + 106) / 3;
+
 console.log(dolphinsAverageScore);
 console.log(koalasAverageScore);
 
 if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
     console.log(`Dolphins are the champions!`);
 } else if (dolphinsAverageScore < koalasAverageScore && koalasAverageScore >= 100) {
-    console.log(`Koalas are the champions`);
+    console.log(`Koalas are the champions!`);
 } else if (dolphinsAverageScore === koalasAverageScore && dolphinsAverageScore >= 100 && koalasAverageScore >= 100) {
     console.log(`It's a tie!!`);
 } else {
