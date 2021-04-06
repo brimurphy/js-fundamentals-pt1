@@ -46,15 +46,15 @@ if (bmiMark > bmiJohn) {
 const dolphinsAverageScore = (97 + 112 + 101) / 3;
 const koalasAverageScore = (109 + 95 + 106) / 3;
 
-console.log(dolphinsAverageScore);
-console.log(koalasAverageScore);
+// console.log(dolphinsAverageScore);
+// console.log(koalasAverageScore);
 
 if (dolphinsAverageScore > koalasAverageScore && dolphinsAverageScore >= 100) {
-    console.log(`Dolphins are the champions!`);
+    // console.log(`Dolphins are the champions!`);
 } else if (dolphinsAverageScore < koalasAverageScore && koalasAverageScore >= 100) {
-    console.log(`Koalas are the champions!`);
+    // console.log(`Koalas are the champions!`);
 } else if (dolphinsAverageScore === koalasAverageScore && dolphinsAverageScore >= 100 && koalasAverageScore >= 100) {
-    console.log(`It's a tie!!`);
+    // console.log(`It's a tie!!`);
 } else {
-    console.log(`Nobody wins the championship!`)
+    // console.log(`Nobody wins the championship!`)
 }
