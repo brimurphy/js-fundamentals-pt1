@@ -254,7 +254,7 @@ if (favourite === 23) { // Try to always use ===
 // !== Strict != Loose
 if (favourite !== 23) console.log("Why not 23!?")
 */
-
+/*
 // Boolean Logic
 
 const age = 16;
@@ -276,3 +276,25 @@ if (!a && b) {
 if (a || !b) {
     console.log(`${age} is greater than or equal to 20 and more than 30`);
 }
+*/
+
+// Logical Operators
+
+const hasDriversLicence = true;
+const hasGoodVision = true;
+const isTired = false;
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+console.log(hasDriversLicence && hasGoodVision && isTired);
+
+const shouldDrive = hasDriversLicence && hasGoodVision && !isTired;
+
+if (shouldDrive) {
+    console.log("Sarah can drive!");
+} else {
+    console.log("Someone else should drive..");
+}
+
+

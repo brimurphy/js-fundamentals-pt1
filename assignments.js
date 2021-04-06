@@ -53,12 +53,22 @@ if (population > avgPopulation) {
 
 //  7: Equality Operators: == vs ===
 
-const numNeighbours = Number(prompt("How many neighbouring countries does your country have?"));
+// const numNeighbours = Number(prompt("How many neighbouring countries does your country have?"));
 
-if (numNeighbours === 1) {
-    console.log("Only 1 border!");
-} else if (numNeighbours > 1) {
-    console.log("More than 1 border");
+// if (numNeighbours === 1) {
+// console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+// console.log("More than 1 border");
+// } else {
+// console.log("No borders!");
+// }
+
+// 8: Logical Operators
+
+const idealCountry = language === "English" && population < 50000000 && !isIsIsland;
+
+if (idealCountry) {
+    console.log(`Sarah should live in ${country}!`);
 } else {
-    console.log("No borders!");
+    console.log(`Sarah shouldn't live in ${country}!`);
 }
